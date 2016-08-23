@@ -21,8 +21,7 @@
         <activity android:name=".ShowDetailActivity" />
         <activity android:name=".BookingPersonInfoActivity" />
         <activity android:name=".BookingSeatInfoActivity" />
-        <activity android:name=".SelectPayActivity" />
-        <activity android:name=".CheckedBookingActivity"></activity>
+        <activity android:name=".SelectPayActivity"></activity>
     </application>
 
 </manifest>
