@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".detail.BookingListActivity" />
+        <activity android:name=".detail.BookingListActivity"
+            android:exported="true"/>
         <activity android:name=".detail.UserActivity" />
         <activity android:name=".SearchActivity" />
         <activity android:name=".ShowDetailActivity" />
