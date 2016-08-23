@@ -17,6 +17,8 @@ public class PushActivity extends AppCompatActivity {
             public void onClick(View view) {
                 finish();
             }
+
+
         });
     }
 }
