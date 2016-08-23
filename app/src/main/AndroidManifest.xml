@@ -36,6 +36,8 @@
         <activity android:name=".pay.SelectPayActivity" />
         <activity android:name=".PushActivity"
             android:screenOrientation="portrait"></activity>
+        <activity android:name=".detail.CheckedBookingActivity"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
@@ -27,6 +27,17 @@
         android:layout_centerHorizontal="true" />
 
     <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="booking_list"
+        android:id="@+id/btn_bookinglist"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="return"
@@ -37,4 +48,4 @@
         android:layout_gravity="right" />
 
 
-</LinearLayout>
+</RelativeLayout>

@@ -21,6 +21,7 @@ public class CheckedBookingActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(CheckedBookingActivity.this, BookingListActivity.class));
+                finish();
             }
         });
 
