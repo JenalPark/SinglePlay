@@ -37,23 +37,23 @@ public class MainActivity extends AppCompatActivity {
 
     private void setTabSpec() {
         TextView tabSpec = (TextView)getLayoutInflater().inflate(R.layout.tab_spec, tabHost.getTabWidget(), false);
-        tabSpec.setText("뮤지컬");
+        tabSpec.setText("뮤 지 컬");
         tabHost.addTab(tabHost.newTabSpec(TAB_MUSICAL).setIndicator(tabSpec), MusicalFragment.class, null);
 
         tabSpec = (TextView)getLayoutInflater().inflate(R.layout.tab_spec, tabHost.getTabWidget(), false);
-        tabSpec.setText("오페라");
+        tabSpec.setText("오 페 라");
         tabHost.addTab(tabHost.newTabSpec(TAB_OPERA).setIndicator(tabSpec), OperaFragment.class, null);
 
         tabSpec = (TextView)getLayoutInflater().inflate(R.layout.tab_spec, tabHost.getTabWidget(), false);
-        tabSpec.setText("콘서트");
+        tabSpec.setText("콘 서 트");
         tabHost.addTab(tabHost.newTabSpec(TAB_CONCERT).setIndicator(tabSpec), ConcertFragment.class, null);
 
         tabSpec = (TextView)getLayoutInflater().inflate(R.layout.tab_spec, tabHost.getTabWidget(), false);
-        tabSpec.setText("위시리스트");
+        tabSpec.setText("위 시 리 스 트");
         tabHost.addTab(tabHost.newTabSpec(TAB_WISHLIST).setIndicator(tabSpec), WishListFragment.class, null);
 
         tabSpec = (TextView)getLayoutInflater().inflate(R.layout.tab_spec, tabHost.getTabWidget(), false);
-        tabSpec.setText("MD추천");
+        tabSpec.setText("M D 추 천");
         tabHost.addTab(tabHost.newTabSpec(TAB_MD).setIndicator(tabSpec), MDRecFragment.class, null);
     }
 }
