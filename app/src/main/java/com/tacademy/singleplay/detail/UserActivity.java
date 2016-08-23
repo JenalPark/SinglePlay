@@ -4,35 +4,60 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 
+import com.tacademy.singleplay.PushActivity;
 import com.tacademy.singleplay.R;
 
-public class UserActivity extends AppCompatActivity {
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 
-    TextView userView, bookingView, eventView, pushView, inquiryView;
+public class UserActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user);
-        userView = (TextView)findViewById(R.id.profileView);
-        bookingView = (TextView)findViewById(R.id.bookingView);
-        eventView = (TextView)findViewById(R.id.eventView);
-        pushView = (TextView)findViewById(R.id.pushView);
-        inquiryView = (TextView)findViewById(R.id.inquiryView);
+        ButterKnife.bind(this);
 
-        Button btn = (Button)findViewById(R.id.btn_coupon);
-        btn.setOnClickListener(new View.OnClickListener() {
+        TextView profileView = (TextView)findViewById(R.id.profileView);
+        profileView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(UserActivity.this, ProfileActivity.class);
                 startActivity(intent);
             }
         });
-        btn = (Button)findViewById(R.id.btn_money);
 
 
     }
+    @OnClick(R.id.btn_coupon)
+    public void btn_couponClick(){
+        Intent intent = new Intent(UserActivity.this, CouponActivity.class);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.pushView)
+    public void pushClick(){
+        Intent intent = new Intent(UserActivity.this, PushActivity.class);
+        startActivity(intent);
+    }
+    @OnClick(R.id.bookingView)
+    public void bookingClick(){
+        Intent intent = new Intent(UserActivity.this, BookingListActivity.class);
+        startActivity(intent);
+    }
+    @OnClick(R.id.eventView)
+    public void eventClick(){
+        Intent intent = new Intent(UserActivity.this, EventNoticeActivity.class);
+        startActivity(intent);
+    }
+    @OnClick(R.id.inquiryView)
+    public void inquiryClick(){
+        Intent intent = new Intent(UserActivity.this, InquiryActivity.class);
+        startActivity(intent);
+    }
+
+
+
 }
