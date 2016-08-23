@@ -1,13 +1,15 @@
-package com.tacademy.singleplay;
+package com.tacademy.singleplay.pay;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class EventNoticeActivity extends AppCompatActivity {
+import com.tacademy.singleplay.R;
+
+public class BookingSeatInfoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_event_notice);
+        setContentView(R.layout.activity_booking_seat_info);
     }
 }

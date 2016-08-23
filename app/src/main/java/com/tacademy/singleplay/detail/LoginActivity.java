@@ -1,7 +1,9 @@
-package com.tacademy.singleplay;
+package com.tacademy.singleplay.detail;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.tacademy.singleplay.R;
 
 public class LoginActivity extends AppCompatActivity {
 
