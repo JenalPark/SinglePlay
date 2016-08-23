@@ -15,25 +15,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".detail.BookingListActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".detail.UserActivity"
-            android:exported="true" />
-        <activity android:name=".detail.CouponActivity"
-            android:screenOrientation="portrait"/>
+        <activity android:name=".detail.BookingListActivity" />
+        <activity android:name=".detail.UserActivity" />
         <activity android:name=".SearchActivity" />
-        <activity android:name=".detail.ProfileActivity"
-            android:screenOrientation="portrait"/>
         <activity android:name=".ShowDetailActivity" />
-        <activity android:name=".detail.InquiryActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".detail.EventNoticeActivity"
-            android:screenOrientation="portrait"/>
         <activity android:name=".pay.BookingPersonInfoActivity" />
         <activity android:name=".pay.BookingSeatInfoActivity" />
-        <activity android:name=".pay.SelectPayActivity" />
-        <activity android:name=".PushActivity"
-            android:screenOrientation="portrait"></activity>
+        <activity android:name=".pay.SelectPayActivity"></activity>
     </application>
 
 </manifest>
