@@ -16,9 +16,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".BookingListActivity" />
-        <activity android:name=".UserActivity"></activity>
-        <activity android:name=".SearchActivity"></activity>
-        <activity android:name=".ShowDetailActivity"></activity>
+        <activity android:name=".UserActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".ShowDetailActivity" />
+        <activity android:name=".BookingPersonInfoActivity" />
+        <activity android:name=".BookingSeatInfoActivity" />
+        <activity android:name=".SelectPayActivity"></activity>
     </application>
 
 </manifest>
