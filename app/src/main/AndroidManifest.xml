@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tacademy.singleplay">
+          package="com.tacademy.singleplay">
 
     <application
         android:allowBackup="true"
@@ -10,18 +10,20 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".BookingListActivity" />
-        <activity android:name=".UserActivity" />
-        <activity android:name=".SearchActivity" />
-        <activity android:name=".ShowDetailActivity" />
-        <activity android:name=".BookingPersonInfoActivity" />
-        <activity android:name=".BookingSeatInfoActivity" />
-        <activity android:name=".SelectPayActivity"></activity>
+        <activity android:name=".BookingListActivity"/>
+        <activity android:name=".UserActivity"/>
+        <activity android:name=".SearchActivity"/>
+        <activity android:name=".ShowDetailActivity"/>
+        <activity android:name=".BookingPersonInfoActivity"/>
+        <activity android:name=".BookingSeatInfoActivity"/>
+        <activity android:name=".SelectPayActivity"/>
+        <activity android:name=".LoginActivity">
+        </activity>
     </application>
 
 </manifest>
