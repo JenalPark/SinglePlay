@@ -33,5 +33,6 @@ public class UserActivity extends AppCompatActivity {
         });
         btn = (Button)findViewById(R.id.btn_money);
 
+
     }
 }
