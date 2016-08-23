@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tacademy.singleplay">
+          package="com.tacademy.singleplay">
 
     <application
         android:allowBackup="true"
@@ -10,19 +10,26 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".detail.BookingListActivity"
+        <activity
+            android:name=".detail.BookingListActivity"
             android:exported="true"/>
-        <activity android:name=".detail.UserActivity" />
-        <activity android:name=".SearchActivity" />
-        <activity android:name=".ShowDetailActivity" />
-        <activity android:name=".pay.BookingPersonInfoActivity" />
-        <activity android:name=".pay.BookingSeatInfoActivity" />
-        <activity android:name=".pay.SelectPayActivity"></activity>
+        <activity
+            android:name=".detail.CheckedBookingActivity"
+            android:exported="true"/>
+        <activity android:name=".detail.UserActivity"/>
+        <activity android:name=".SearchActivity"/>
+        <activity android:name=".ShowDetailActivity"/>
+        <activity android:name=".pay.BookingPersonInfoActivity"/>
+        <activity android:name=".pay.BookingSeatInfoActivity"/>
+        <activity android:name=".pay.SelectPayActivity"/>
+        <activity android:name=".PushActivity"
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>
